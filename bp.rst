@@ -74,6 +74,7 @@ There are few options:
 
     * Nova
         Obvious first choice, since we will be working closely with hipervisor.
+        
         Pros:
             * Core openstack project
             * Strong hipervisor integration
