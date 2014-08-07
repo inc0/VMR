@@ -1,0 +1,4 @@
+VMR
+===
+
+openstack vm restart
