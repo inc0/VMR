@@ -86,6 +86,7 @@ There are few options:
 
     * Glance
         A bit far fetched idea, but idea nonetheless
+        
         Pros:
             * Core openstack project
             * We will be woring with images, snapshots etc
@@ -97,6 +98,7 @@ There are few options:
 
     * Ceilometer
         Since we will be dependant on it, we might as well be part of it
+        
         Pros:
             * We could connect to alarm api istelf and optimize performance
             * We have access to all the raw data we need
@@ -108,6 +110,7 @@ There are few options:
 
     * Heat
         Orchiestration is related to autohealing
+        
         Pros:
             * Core Openstack project
             * PTL is from Red Hat
@@ -123,6 +126,7 @@ There are few options:
 
     * Mistral
         We'll use mistral and it might be good place as well
+        
         Pros:
             * Young project, we might have strong impact on it
             * Easily appendable to existing deployments
@@ -132,6 +136,7 @@ There are few options:
 
     * Rally
         It already has scenerios we could use and vm setup mechanisms
+        
         Pros:
             * It has some abilities we could use
         Cons:
@@ -140,6 +145,7 @@ There are few options:
 
     * Our own project
         We have always option to start from scratch
+        
         Pros:
             * We do what we want with it without asking anyone for anything
         Cons:
