@@ -50,6 +50,9 @@ Possible actions
         Much like example above only we perform migration on LB rather than
         floatings.
 
+    * Active-standby + DNSaaS
+        Like LBaaS but with designate and CNAME/A record migration
+
     * Suspend/Resume
         Its not autohealing per se, we could free up some resources for other
         instances this way.
