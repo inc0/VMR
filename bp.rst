@@ -154,3 +154,8 @@ There are few options:
         Cons:
             * 2 years of incubation at best
 
+
+Random thoughts
+---------------
+
+    * We might need to apply resource scheduling much like VMWare. What I mean is we might add VM priority, and if we would be short on resources to boot all of vms from failed host/region/availability zone/whatever we would boot machines with higher priority and leave out those with lower.
