@@ -49,6 +49,9 @@ Possible actions
     * Active-standby + LBaaS
         Much like example above only we perform migration on LB rather than
         floatings.
+        
+    * Active-standby + port migration
+        It might be possible to migrate port in neutron to another vm, thus moving internal ip.
 
     * Active-standby + DNSaaS
         Like LBaaS but with designate and CNAME/A record migration
