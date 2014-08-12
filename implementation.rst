@@ -29,6 +29,10 @@ Possible actions
         Mve out vms from a host. Usable for scheduled maintanance. Not
         usable for random host failure or network down. Also shared storage is
         required between hosts.
+        
+    * DRBD
+        We can use DRBD mechanism to ensure robust autohealing, this will
+        require some coding, but might prove very useful.
 
     * Boot from snapshot
         If we lose contact to master node we may boot up slave node from
