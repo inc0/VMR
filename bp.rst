@@ -86,7 +86,6 @@ There are few options:
             * Strong hipervisor integration
             * Every openstack installation has nova enabled
         Cons:
-            * Nova guys don't want us in
             * We are dependant on non-essential projects like ceilometer
             * Not really nova usage case (although imho vnc isn't one as well)
 
@@ -97,7 +96,6 @@ There are few options:
             * Core openstack project
             * We will be woring with images, snapshots etc
             * We could use graffiti for it (for example HA flavor)
-            * We have strong connectons with Glance guys
         Cons:
             * This is really far fetched idea
             * Not a glance use case
@@ -109,17 +107,14 @@ There are few options:
             * We could connect to alarm api istelf and optimize performance
             * We have access to all the raw data we need
             * Core Openstack Project
-            * PTL is from Red Hat
         Cons:
             * Ceilometer is only for metering, so its not its use case
-            * Ceilometer guys don't want us in
 
     * Heat
         Orchiestration is related to autohealing
         
         Pros:
             * Core Openstack project
-            * PTL is from Red Hat
             * Dependant on ceilometer (as are we)
             * Heat use case
         Cons:
@@ -161,4 +156,4 @@ There are few options:
 Random thoughts
 ---------------
 
-    * We might need to apply resource scheduling much like VMWare. What I mean is we might add VM priority, and if we would be short on resources to boot all of vms from failed host/region/availability zone/whatever we would boot machines with higher priority and leave out those with lower.
+    * We might need to apply resource scheduling. What I mean is we might add VM priority, and if we would be short on resources to boot all of vms from failed host/region/availability zone/whatever we would boot machines with higher priority and leave out those with lower.
