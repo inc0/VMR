@@ -157,3 +157,5 @@ Random thoughts
 ---------------
 
     * We might need to apply resource scheduling. What I mean is we might add VM priority, and if we would be short on resources to boot all of vms from failed host/region/availability zone/whatever we would boot machines with higher priority and leave out those with lower.
+
+    * Response time is strong requirement in our case. We need it to be both very fast and very robust.
