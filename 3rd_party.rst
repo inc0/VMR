@@ -42,3 +42,5 @@ Currently we have this cluster management software to work with:
                 * AGPL licence.
                 * HA based on DRBD
                 * Fencing
+            * Pacemaker
+            * OpenShift
